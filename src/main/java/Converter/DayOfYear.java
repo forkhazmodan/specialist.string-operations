@@ -1,6 +1,6 @@
 package Converter;
 
-public class Converter {
+public class DayOfYear {
 
     private final boolean isLeapYear;
     private final int year;
@@ -24,7 +24,7 @@ public class Converter {
     private int monthNum;
     private int dayOfMonthNum;
     
-    public Converter(int year, int day) throws Exception {
+    public DayOfYear(int year, int day) throws Exception {
 
         this.isLeapYear = (year % 4 == 0) && (year % 100 != 0 || year % 400 == 0);
         int daysInTheYear = this.isLeapYear ? 366 : 365;

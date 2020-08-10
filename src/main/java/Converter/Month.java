@@ -1,4 +1,4 @@
-package Converter.Enums;
+package Converter;
 
 public enum Month {
 
